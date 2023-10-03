@@ -8,6 +8,7 @@ __2023-10__
 * Rebrand theme `triple-hyde`
 * Add support for Mastodon in sidebar
 * Add support for image short codes
+* Fix about sidebar partial being correctly linked
 
 __2018-11__
 

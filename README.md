@@ -10,7 +10,8 @@ __`Triple-hyde`__ is a [Hugo](https://gohugo.io)'s theme that extends @htrn's [H
 
 * [PR #1](https://github.com/derme302/triple-hyde/pull/1) adds support for Google Analytics v4
 * [PR #5](https://github.com/derme302/triple-hyde/pull/5) by [@eatingbrb](https://github.com/eatingbrb) adds support for Mastodon in social sidebar
-* [PR #6](https://github.com/derme302/triple-hyde/pull/5) adds support for img shortcodes, allowing you to align an image inside of markdown by adding `#center`, `#left` or `#right` at the end of an image link. E.g. `![Metal](/uploads/2014/06/metal_icon.png#center)`
+* [PR #6](https://github.com/derme302/triple-hyde/pull/6) adds support for img shortcodes, allowing you to align an image inside of markdown by adding `#center`, `#left` or `#right` at the end of an image link. E.g. `![Metal](/uploads/2014/06/metal_icon.png#center)`
+* [PR #7](https://github.com/derme302/triple-hyde/pull/7) correctly breaks out the about section on the sidebar as a partial
 
 For more details, please refer to [CHANGELOG](https://github.com/derme302/triple-hyde/blob/master/CHANGELOG.md).  A real site in action can be found [here](https://derme.coffee/) and the [example site](https://derme.coffee/triple-hyde) for reference.
 
