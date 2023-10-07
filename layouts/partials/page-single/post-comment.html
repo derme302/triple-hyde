@@ -7,5 +7,7 @@
         {{ partial "page-single/comment/utterances.html" . }}
     {{ else if .Site.Params.Commento }}
         {{ partial "page-single/comment/commento.html" . }}
+    {{ else if .Site.Params.giscus.repo }}
+        {{ partial "page-single/comment/giscus.html" . }}
     {{ end }}
 {{ end }}

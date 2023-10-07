@@ -33,7 +33,7 @@ theme = "triple-hyde"
     # https://highlightjs.org
     highlightjs = true
     highlightjsstyle = "github"
-    
+
     # please choose either GraphComment or Disqus or Utterances
     #GraphCommentId = "..."
     #UtterancesRepo = "..." # https://utteranc.es/
@@ -42,6 +42,20 @@ theme = "triple-hyde"
 
     # Table of contents
     #toc = none, "hugo", or "tocbot"
+
+[params.giscus]
+    # repo = "author/repo"
+    # repoID = "<id>"
+    # category = "Announcements"
+    # categoryID = "<id>"
+    mapping = "pathname"
+    strict = "1"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "light"
+    lang = "en"
+    loading = "lazy"
 
 ## Social Accounts
 [params.social]
