@@ -1,4 +1,4 @@
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://github.com/htr3n/hyde-hyde/blob/master/LICENSE.md) ![GitHub release](https://img.shields.io/github/release/htr3n/hyde-hyde.svg) ![GitHub stars](https://img.shields.io/github/stars/htr3n/hyde-hyde.svg) ![GitHub forks](https://img.shields.io/github/forks/htr3n/hyde-hyde.svg) ![GitHub issues](https://img.shields.io/github/issues/htr3n/hyde-hyde.svg) ![GitHub issues closed](https://img.shields.io/github/issues-closed/htr3n/hyde-hyde.svg)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://github.com/derme302/triple-hyde/blob/master/LICENSE.md) ![GitHub release](https://img.shields.io/github/release/derme302/triple-hyde.svg) ![GitHub stars](https://img.shields.io/github/stars/derme302/triple-hyde.svg) ![GitHub forks](https://img.shields.io/github/forks/derme302/triple-hyde.svg) ![GitHub issues](https://img.shields.io/github/issues/derme302/triple-hyde.svg) ![GitHub issues closed](https://img.shields.io/github/issues-closed/derme302/triple-hyde.svg)
 
 # Triple-hyde
 
@@ -92,7 +92,7 @@ __`Triple-hyde`__ essentially inherits most of Hyde's [options](https://github.c
 
 ### Customisations
 
-* Most of the customisable SCSS styles in [_assets/scss/hyde-hyde_](https://github.com/htr3n/hyde-hyde/blob/master/assets/scss/hyde-hyde) and Hugo templates in [_hyde-hyde/layouts_](https://github.com/htr3n/hyde-hyde/blob/master/layouts) are modularised and can be altered/adapted easily.
+* Most of the customisable SCSS styles in [_assets/scss/hyde-hyde_](https://github.com/derme302/triple-hyde/blob/master/assets/scss/triple-hyde) and Hugo templates in [_hyde-hyde/layouts_](https://github.com/derme302/triple-hyde/blob/master/layouts) are modularised and can be altered/adapted easily.
 
 ## Portfolio
 
@@ -149,16 +149,16 @@ Here is a longer summary of the project. You can write as long as you wish.
 >
 > * `date` is important to sort the project chronologically
 > * `layout 'portfolio'` is important as you don't want your project's page appear in the list of posts in the main page of your Web site but only in the _Portfolio_ ;)
-> * `featured: true` : when you want to show a project as featured project. It is default to `false`. Note that only one project should be marked `featured: true` , otherwise, the result could be random as [the Hugo template](https://github.com/htr3n/hyde-hyde/blob/master/layouts/partials/portfolio/content.html) will take the first one.
+> * `featured: true` : when you want to show a project as featured project. It is default to `false`. Note that only one project should be marked `featured: true` , otherwise, the result could be random as [the Hugo template](https://github.com/derme302/triple-hyde/blob/master/layouts/partials/portfolio/content.html) will take the first one.
 > * The body of the Markdown file will be the summary of the project.
 
-If you want to adjust the portfolio page to your needs, please have a look at the [main template](https://github.com/htr3n/hyde-hyde/blob/master/layouts/portfolio/list.html), that uses this [partial template](https://github.com/htr3n/hyde-hyde/blob/master/layouts/partials/portfolio/content.html) and [this SCSS style](https://github.com/htr3n/hyde-hyde/blob/master/assets/scss/hyde-hyde/_project.scss).
+If you want to adjust the portfolio page to your needs, please have a look at the [main template](https://github.com/derme302/triple-hyde/blob/master/layouts/portfolio/list.html), that uses this [partial template](https://github.com/derme302/triple-hyde/blob/master/layouts/partials/portfolio/content.html) and [this SCSS style](https://github.com/derme302/triple-hyde/blob/master/assets/scss/triple-hyde/_project.scss).
 
 ### Posts in home page
 By default hugo will show in your home page the most populated section.
 This means that if you have more projects than posts, by default your home page will list your projects instead of your posts.
 If you want to change this behaviour you can change the [mainsections](https://gohugo.io/functions/where/#mainsections).
-For example, for the [exampleSite](https://github.com/htr3n/hyde-hyde/tree/master/exampleSite) this is how you should change the `config.toml` file:
+For example, for the [exampleSite](https://github.com/derme302/triple-hyde/tree/master/exampleSite) this is how you should change the `config.toml` file:
 ```
 [params]
     mainSections = ["posts"]
@@ -168,21 +168,21 @@ For example, for the [exampleSite](https://github.com/htr3n/hyde-hyde/tree/maste
 
 ### Main page
 
-![hyde-hyde main screen](https://github.com/htr3n/hyde-hyde/raw/master/images/main.png)
+![hyde-hyde main screen](https://github.com/derme302/triple-hyde/raw/master/images/main.png)
 
 ### A post
 
-![A post in hyde-hyde](https://github.com/htr3n/hyde-hyde/raw/master/images/post.png)
+![A post in hyde-hyde](https://github.com/derme302/triple-hyde/raw/master/images/post.png)
 
 ### Portfolio
 
-![Portfolio hyde-hyde](https://github.com/htr3n/hyde-hyde/raw/master/images/portfolio.png)
+![Portfolio hyde-hyde](https://github.com/derme302/triple-hyde/raw/master/images/portfolio.png)
 
 
 
 ### Mobile Mode with Collapsible Menu
 
-<img src='https://github.com/htr3n/hyde-hyde/raw/master/images/mobile.png' alt='hyde-hyde in mobile mode' width='60%'>
+<img src='https://github.com/derme302/triple-hyde/raw/master/images/mobile.png' alt='hyde-hyde in mobile mode' width='60%'>
 
 ## Author(s)
 
