@@ -6,9 +6,10 @@ __next__
 
 * [PR #7](https://github.com/derme302/triple-hyde/pull/7) correctly breaks out the about section on the sidebar as a partial
 * [PR #8](https://github.com/derme302/triple-hyde/pull/8) updates Font Awesome v6 and adds the Threads icon
+* [PR #10](https://github.com/derme302/triple-hyde/pull/10) by [@MarcoIeni](https://github.com/MarcoIeni) adds support for [giscus](https://giscus.app/)
 
 
-__2023-10__
+__2023-10-3__
 
 * Rebrand theme `triple-hyde`
 * [PR #1](https://github.com/derme302/triple-hyde/pull/1) adds support for Google Analytics v4
