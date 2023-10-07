@@ -57,6 +57,7 @@ theme = "triple-hyde"
     # orcid = "<xxxx-xxxx-xxxx-xxxx>"
     email = "your-email@example.com"
     mastodon = "<username>"
+    threads = "@<username>"
     # gravatar = "your-email@example.com"
     # pgpkey = "<path-to-your-key-in-/static>"
 
