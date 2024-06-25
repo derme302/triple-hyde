@@ -85,6 +85,11 @@ theme = "triple-hyde"
     weight = 200
     url = "/portfolio/"
 [[menu.main]]
+    name = "Icons"
+    identifier = "icons"
+    weight = 250
+    url = "/icons/"
+[[menu.main]]
     name = "About"
     identifier = "about"
     weight = 300
