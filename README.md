@@ -14,6 +14,7 @@ __`Triple-hyde`__ is a [Hugo](https://gohugo.io)'s theme that extends @htrn's [H
 * [PR #7](https://github.com/derme302/triple-hyde/pull/7) correctly breaks out the about section on the sidebar as a partial
 * [PR #8](https://github.com/derme302/triple-hyde/pull/8) updates theme to Font Awesome v6 and adds the Threads icon
 * [PR #10](https://github.com/derme302/triple-hyde/pull/10) by [@MarcoIeni](https://github.com/MarcoIeni) adds support for [giscus](https://giscus.app/)
+* [PR #11](https://github.com/derme302/triple-hyde/pull/11) adds internal Font Awesome 6 SVG Icon support and documentation from [Blowfish](https://blowfish.page)
 
 For more details, please refer to [CHANGELOG](https://github.com/derme302/triple-hyde/blob/master/CHANGELOG.md).  A real site in action can be found [here](https://derme.coffee/) and the [example site](https://derme.coffee/triple-hyde) for reference.
 

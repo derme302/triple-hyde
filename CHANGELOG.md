@@ -2,6 +2,10 @@
 
 This changelog mainly documented some major changes, updates or fixes (with credits) for reference purposes. It by no means covers all contributors. Nonetheless, to the bottom of my heart, I truly appreciate all of your time and contributions.
 
+__2024-06__
+
+* [PR #11](https://github.com/derme302/triple-hyde/pull/11) adds internal Font Awesome 6 SVG Icon support and documentation. Also includes documentation for the other theme shortcodes.
+
 __2023-10-7__
 
 * [PR #7](https://github.com/derme302/triple-hyde/pull/7) correctly breaks out the about section on the sidebar as a partial
