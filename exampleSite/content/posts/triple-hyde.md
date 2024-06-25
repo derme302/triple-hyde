@@ -10,9 +10,9 @@ weight: 10
 
 # Partials
 
-## Icon
+## Icon {#partials-icon}
 
-Similar to the [icon shortcode]({{< ref "##shortcodes#icon" >}}), you can include icons in your own templates and partials by using Triple Hyde's `icon.html` partial. The partial takes one parameter which is the name of the icon to be included.
+Similar to the [icon shortcode]({{< ref "#shortcodes-icon" >}}), you can include icons in your own templates and partials by using Triple Hyde's `icon.html` partial. The partial takes one parameter which is the name of the icon to be included.
 
 **Example:**
 
@@ -24,7 +24,7 @@ Icons are populated using Hugo pipelines which makes them very flexible. Triple 
 
 Custom icons can be added by providing your own icon assets in the `assets/icons/` directory of your project. The icon can then be referenced in the partial by using the SVG filename without the `.svg` extension.z
 
-Icons can also be used in article content by calling the [icon shortcode]({{< ref "#shortcodes##icon" >}}).
+Icons can also be used in article content by calling the [icon shortcode]({{< ref "#shortcodes-icon" >}}).
 
 <br/><br/><br/>
 
@@ -44,7 +44,7 @@ Icons can also be used in article content by calling the [icon shortcode]({{< re
 
 <br/><br/><br/>
 
-## Icon
+## Icon {#shortcodes-icon}
 
 `icon` outputs an SVG icon and takes the icon name as its only parameter. The icon is scaled to match the current text size.
 
@@ -60,7 +60,7 @@ Icons are populated using Hugo pipelines which makes them very flexible. Triple 
 
 Custom icons can be added by providing your own icon assets in the `assets/icons/` directory of your project. The icon can then be referenced in the shortcode by using the SVG filename without the `.svg` extension.
 
-Icons can also be used in partials by calling the [icon partial]({{< ref "#partials##icon" >}}).
+Icons can also be used in partials by calling the [icon partial]({{< ref "#partials-icon" >}}).
 
 <br/><br/><br/>
 
