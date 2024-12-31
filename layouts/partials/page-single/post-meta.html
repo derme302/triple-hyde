@@ -2,7 +2,7 @@
 <div class="post__meta">
     <!-- published date -->
     {{ if not .Date.IsZero }}
-      <i class="fas fa-calendar-alt"></i> {{ .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") }}
+      <i class="fas fa-calendar-alt"></i> {{ .Date | time.Format  (.Site.Params.dateformat | default "Jan 02, 2006") }}
     {{ end }}
     <!-- categories -->
     {{ with .Params.categories }}
