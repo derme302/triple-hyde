@@ -189,13 +189,11 @@ body.color-scheme-light {
 	color-scheme: light;
 }
 
-@media screen {
-	body.color-scheme-dark {
-		@include dark-color-scheme;
-	}
+body.color-scheme-dark {
+	@include dark-color-scheme;
 }
 
-@media screen and (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 	body.color-scheme-system {
 		@include dark-color-scheme;
 	}
