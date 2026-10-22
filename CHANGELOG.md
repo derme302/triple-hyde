@@ -2,6 +2,9 @@
 
 This changelog mainly documented some major changes, updates or fixes (with credits) for reference purposes. It by no means covers all contributors. Nonetheless, to the bottom of my heart, I truly appreciate all of your time and contributions.
 
+__2026-10__
+* Use Hugo's built-in Chroma syntax highlighter by default, with light and dark palettes that follow `colorScheme`. Highlight.js remains available as an opt-in alternative.
+
 __2026-01__
 * [PR #27](https://github.com/derme302/triple-hyde/pull/27) by [magikMaker](https://github.com/magikMaker) updates Twitter to 𝕏. Both the link and icon in the sidebar are changed.
 

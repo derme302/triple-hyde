@@ -15,6 +15,7 @@ __`Triple-hyde`__ is a [Hugo](https://gohugo.io)'s theme that extends @htrn's [H
 * [PR #10](https://github.com/derme302/triple-hyde/pull/10) by [@MarcoIeni](https://github.com/MarcoIeni) adds support for [giscus](https://giscus.app/)
 * [PR #11](https://github.com/derme302/triple-hyde/pull/11) adds internal Font Awesome 6 SVG Icon support and documentation from [Blowfish](https://blowfish.page)
 * [PR #19](https://github.com/derme302/triple-hyde/pull/19) by [burki169](https://github.com/burki169) improves the display of international dates
+* Uses Hugo's built-in Chroma syntax highlighter by default, with light and dark palettes that follow `colorScheme`; highlight.js remains available as an opt-in alternative.
 
 For more details, please refer to [CHANGELOG](https://github.com/derme302/triple-hyde/blob/master/CHANGELOG.md).  A real site in action can be found [here](https://derme.coffee/) and the [example site](https://derme.coffee/triple-hyde) for reference.
 
