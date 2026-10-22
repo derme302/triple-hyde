@@ -12,6 +12,11 @@ theme = "triple-hyde"
 
 #paginate = 5
 
+## Markdown / Code Highlighting
+# Emit CSS classes (styled by the theme's light and dark palettes) instead of inline styles.
+[markup.highlight]
+    noClasses = false
+
 ## Site Settings
 [params]
     author = "Author"
@@ -19,6 +24,8 @@ theme = "triple-hyde"
     # description = "..."
     authorimage = "/img/hugo.png"
     dateformat = "Jan 2, 2006"
+    # Choose "light", "dark", or "system" (default) to follow the visitor's OS preference.
+    colorScheme = "system"
 
     # sidebar, copyright & license
     #logoimage = "/img/hugo.png"
@@ -28,9 +35,12 @@ theme = "triple-hyde"
     licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
     showBuiltWith = true
 
-    # https://highlightjs.org
-    highlightjs = true
-    highlightjsstyle = "github"
+    # Code highlighting uses Hugo's built-in Chroma (see [markup.highlight] above).
+    # To use https://highlightjs.org instead, set `highlightjs = true` here and
+    # `codeFences = false` under [markup.highlight].
+    # highlightjs = true
+    # highlightjsstyle = "github"
+    # highlightjsdarkstyle = "github-dark"
 
     # please choose either GraphComment or Disqus or Utterances
     #GraphCommentId = "..."

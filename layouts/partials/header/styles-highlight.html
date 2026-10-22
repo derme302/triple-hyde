@@ -1,7 +1,18 @@
 {{ if .Site.Params.highlightjs }}
 {{ if or (not (isset .Params "highlight")) (.Params.highlight) }}
+{{ $colorScheme := lower (default "system" .Site.Params.colorScheme) }}
+{{ $base := "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/" }}
+{{ $light := .Site.Params.highlightjsstyle | default "default" }}
+{{ $dark := .Site.Params.highlightjsdarkstyle | default "github-dark" }}
 <!-- highlightjs -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/{{ .Site.Params.highlightjsstyle | default "default" }}.min.css">
+{{ if eq $colorScheme "dark" }}
+<link rel="stylesheet" href="{{ $base }}{{ $dark }}.min.css">
+{{ else if eq $colorScheme "light" }}
+<link rel="stylesheet" href="{{ $base }}{{ $light }}.min.css">
+{{ else }}
+<link rel="stylesheet" href="{{ $base }}{{ $light }}.min.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="{{ $base }}{{ $dark }}.min.css" media="(prefers-color-scheme: dark)">
+{{ end }}
 {{ end }}
 {{ end }}
 {{ if .Site.Params.PygmentsUseClasses }}
