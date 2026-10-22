@@ -129,7 +129,6 @@
 
 	tbody tr:nth-child(odd) td,
 	tbody tr:nth-child(odd) th,
-	.highlight,
 	.message,
 	.menu,
 	.toc-wrapper,
@@ -159,17 +158,9 @@
 		background-color: #3a2628;
 	}
 
-	code {
+	:not(pre) > code {
 		color: #f28b82;
 		background-color: #292b2e;
-	}
-
-	.content pre code {
-		background-color: transparent;
-	}
-
-	.highlight .hll {
-		background-color: #3b3b25;
 	}
 
 	.post__tag {
