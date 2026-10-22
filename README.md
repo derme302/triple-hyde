@@ -54,9 +54,19 @@ That's all. You can render your site using `hugo` and see `triple-hyde` in actio
 
 __`Triple-hyde`__ essentially inherits most of Hyde's [options](https://github.com/spf13/hyde#options). There are some extra options though
 
-* `highlightjs = true`: use [highlight.js](https://highlightjs.org) instead of Hugo built-in support for code highlighting
+* Code highlighting uses Hugo's built-in [Chroma](https://gohugo.io/content-management/syntax-highlighting/) by default, with light and dark palettes that follow `colorScheme`. Enable class-based output in your site config (the theme's styles target these classes):
+
+  ```toml
+  [markup.highlight]
+    noClasses = false
+  ```
+
+  Add a language to each fenced code block (e.g. ` ```go `) so Chroma can highlight it.
+
+* `highlightjs = true` (default `false`): use [highlight.js](https://highlightjs.org) instead of Chroma. Also set `codeFences = false` under `[markup.highlight]` so Hugo leaves the code blocks for highlight.js.
 
   * `highlightjsstyle="highlight-style"`: only when `highlightjs = true`, please choose one of many _highlight.js_'s [styles](https://highlightjs.org/static/demo).
+  * `highlightjsdarkstyle="github-dark"` (default `"github-dark"`): the _highlight.js_ style used when the dark color scheme is active (see `colorScheme`).
   * Since [v2.0.1](https://github.com/htr3n/hyde-hyde/tree/v2.0.1), highlighting for each page can be fine-tuned in the front matter, for example
     * `highlight = false`  (default `true`)
     * `highlightjslanguages = ["swift", "objectivec"]` 

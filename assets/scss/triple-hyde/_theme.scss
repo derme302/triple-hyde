@@ -183,6 +183,8 @@
 	.project__image {
 		box-shadow: none;
 	}
+
+	@include chroma-dark-palette;
 }
 
 body.color-scheme-light {
