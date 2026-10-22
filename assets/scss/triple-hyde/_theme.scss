@@ -198,11 +198,13 @@ body.color-scheme-light {
 	color-scheme: light;
 }
 
-body.color-scheme-dark {
-	@include dark-color-scheme;
+@media screen {
+	body.color-scheme-dark {
+		@include dark-color-scheme;
+	}
 }
 
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
 	body.color-scheme-system {
 		@include dark-color-scheme;
 	}
