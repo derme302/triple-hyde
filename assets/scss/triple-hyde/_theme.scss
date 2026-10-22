@@ -132,8 +132,18 @@
 	.highlight,
 	.message,
 	.menu,
+	.toc-wrapper,
+	.toc,
 	blockquote {
 		background-color: #242629;
+	}
+
+	.toc-wrapper label {
+		background-image: url(/img/menu-close.svg);
+	}
+
+	input#tocToggle:checked + label {
+		background-image: url(/img/menu-open.svg);
 	}
 
 	blockquote,
