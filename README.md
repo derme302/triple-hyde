@@ -65,6 +65,8 @@ __`Triple-hyde`__ essentially inherits most of Hyde's [options](https://github.c
 
 * `relatedPosts = false|true` (default `false`): Setting to `true` allows related posts. Please refer [here](https://gohugo.io/content-management/related) for more details on related contents with Hugo.
 
+* `colorScheme = "system"` (default `"system"`): Select the site's color scheme. Use `"light"` to always render the light palette, `"dark"` to always render the dark palette, or `"system"` to follow the visitor's operating-system preference.
+
 * `GraphCommentId = "your-graphcomment-id"`: to use [GraphComment](https://graphcomment.com) instead of the built-in [Disqus](https://disqus.com). This option should be used exclusively with `disqusShortname = "disqus-shortname"`.
 
 * `UtterancesRepo = "owner/repo-name"`: to use [Utterances](https://utteranc.es/) instead of the built-in [Disqus](https://disqus.com). This option should be used exclusively with `disqusShortname = "disqus-shortname"`.

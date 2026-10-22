@@ -87,22 +87,20 @@
 	}
 }
 
-@media (prefers-color-scheme: dark) {
-	body {
-		color-scheme: dark;
-		color: #d1d5db;
-		background-color: #181a1b;
-	}
+@mixin dark-color-scheme {
+	color-scheme: dark;
+	color: #d1d5db;
+	background-color: #181a1b;
 
 	.content a,
-	body[class*="theme-base"] .content a {
+	&[class*="theme-base"] .content a {
 		color: #8ab4f8;
 	}
 
 	.content a:hover,
 	.content a:focus,
-	body[class*="theme-base"] .content a:hover,
-	body[class*="theme-base"] .content a:focus {
+	&[class*="theme-base"] .content a:hover,
+	&[class*="theme-base"] .content a:focus {
 		color: #aecbfa;
 	}
 
@@ -183,5 +181,19 @@
 
 	.project__image {
 		box-shadow: none;
+	}
+}
+
+body.color-scheme-light {
+	color-scheme: light;
+}
+
+body.color-scheme-dark {
+	@include dark-color-scheme;
+}
+
+@media (prefers-color-scheme: dark) {
+	body.color-scheme-system {
+		@include dark-color-scheme;
 	}
 }

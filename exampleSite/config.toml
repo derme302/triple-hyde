@@ -19,6 +19,8 @@ theme = "triple-hyde"
     # description = "..."
     authorimage = "/img/hugo.png"
     dateformat = "Jan 2, 2006"
+    # Choose "light", "dark", or "system" (default) to follow the visitor's OS preference.
+    colorScheme = "system"
 
     # sidebar, copyright & license
     #logoimage = "/img/hugo.png"
